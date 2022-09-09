@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Triangle Perimeter</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-    <link rel="stylesheet" href="style.css" />
+  <title>Triangle Perimeter</title>
 
-    <script defer src="main.js"></script>
-  </head>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
 
-  <body>
-    <h1>Triangle Perimeter</h1>
-    <hr />
+  <script defer src="main.js"></script>
+</head>
 
-    <h3>Perimeter = AB + AC + BC</h3>
+<body>
+  <h1>Triangle Perimeter</h1>
+  <hr />
+
+  <h3>Perimeter = AB + AC + BC</h3>
+  <p>
+    <img src="img/triangle-vertices.PNG" alt="Triangle Image" width="400" />
+  </p>
+  <hr />
+  <p>
+    Enter the vertices of the triangle and click 'Calculate' to determine the side lengths and perimeter of the
+    triangle.
     <p>
-      <img src="img/triangle-vertices.PNG" alt="Triangle Image" width="400" />
-    </p>
-    <hr />
-    <p>
-      Enter the vertices of the triangle and click 'Calculate' to determine the side lengths and perimeter of the triangle.
-      <br>  
-      <b>Vertex 1</b> <input id="vert-1" type="number" />
-    </p>
-  </body>
+      <b>Vertex 1</b> -xA: <input id="vert-1x" type="number" /> yA:<input id="vert-1y" type="number" />
+      <p>
+        <b>Vertex 2</b> -xB: <input id="vert-2x" type="number" /> yB: <input id="vert-2y" type="number" />
+        <p>
+          <b>Vertex 3</b> -xC: <input id="vert-3x" type="number" /> yC: <input id="vert-3y" type="number" />
+        </p>
+        <hr>
+        <p>
+          <button id="btn">CALCULATE</button>
+        </p>
+        <p>
+          AB = ---
+          <br>
+          AC = ---
+          <br>
+          BC = ---
+          <br>
+          Perimeter of ABC = --- 
+        </p>
+</body>
+
 </html>
