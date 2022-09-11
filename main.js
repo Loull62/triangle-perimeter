@@ -17,10 +17,10 @@ function dist(x1Val, y1Val, x2Val, y2Val) {
     // let abValue = vertxA - vertxB;
     // let bcValue = vertyB - vertyC;
     let aValue = x1Val - x2Val;
-    let bValue = y1Val - y2Val;
+    let cValue = y1Val - y2Val;
 
-    let acValue = mathsqrt(aValue**2 + bValue**2);
+    let bValue = mathsqrt(aValue**2 + bValue**2);
 
 
-    return acValue;
+    return bValue;
 }
