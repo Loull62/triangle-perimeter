@@ -27,6 +27,12 @@ function dist(y1Val, y2Val, x1Val, x2Val) {
 
 // gets values to add
 function peri(aValue, cValue, bValue) {
-    let perimeter = aValue + bValue + cValue;
-    return perimeter;
+    if (aValue, bValue, cValue === 0) {
+        let perimeter = 0
+        return perimeter;
+    }
+    else {
+        let perimeter = aValue + bValue + cValue;
+        return perimeter;
+    }
 }
